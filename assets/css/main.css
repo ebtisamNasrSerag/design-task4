@@ -1,0 +1,346 @@
+body  {
+    border-top: 7px solid #bd2d2d;
+    font-family: arial;
+    padding: 0;
+    margin: 0;
+}
+
+.red {color: #e51649;}
+* :focus {outline: 0 !important;}
+/* ================== start header ==========================*/
+.header {
+	background: url('../images/img2.jpg') no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+}
+.header .overlay_nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	background-color: rgba(255, 255, 255, .89);
+	border-bottom: 11px solid rgba(229, 223, 239, 0.51);
+}
+.header .row-nav {margin-top: 10px;}
+.header .collapse {  margin-left: 60px;}
+.header .collapse .navbar-nav li a {
+	color: #000;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-left: 13.5px;
+	font-weight: bold;
+	border-bottom: 4px solid rgba(0,0,0,0);
+}
+.header .collapse .navbar-nav li:hover a {
+	color: #e51649;
+	border-bottom: 4px solid #e51649;
+}
+
+.header .tophead {
+	padding-top: 200px;
+	color: #fff;}
+.header .tophead  .h {margin-left: 10px;}
+.header .tophead  h1 {
+	font-weight: 900;
+	font-size: 60px;
+	text-transform: uppercase;
+	line-height: 48px;
+}
+.header .tophead p {
+	padding-top: 30px;
+	font-size: 22px;
+	letter-spacing: 1px;
+	line-height: 28px;
+}
+.header .tophead  .btn {
+	border-radius: none;
+	margin-top: 10px;
+	font-size: 22px;
+    padding: 10px 19px;
+}
+.header .tophead  .btn i{padding-left: 10px;}
+/* ================== end header ==========================*/
+
+/* ================== backage booking ==========================*/
+
+.booking .container {margin-left: 105px;}
+.booking .imgb1 {
+	background: url('../images/img4.jpg') no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	width: 100% ;
+    position: relative;
+}
+.booking .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247, 237, 237, 0.82);
+
+}
+.booking .imgb2 {
+	background: url('../images/img3.jpg') no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	width: 100% ;
+    position: relative;
+}
+
+.booking h1 {padding-top: 80px; font-weight: 600;}
+.booking .overlaynav {   
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    height: 11%;
+    background-color: rgba(189, 188, 188, 0.79);}
+.booking .overlaynav ul {list-style: none; padding-left: 0;}   
+.booking  .overlaynav li { 
+	float: left; 
+	padding-right: 45px;
+	margin-left: 0;
+	line-height: 2.5;}
+.booking  .overlaynav li img {width: 38px; height: 28px; margin-top: -8px;}
+.booking  .overlaynav li a {
+	text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    
+}	
+.booking .city{
+     margin-top: 120px;}
+.booking .city p, .booking .date-time p, .booking .num-travellers p{
+	 font-weight: bold;
+	 font-size: 16px;
+	 margin-bottom: 6px;}
+.booking .city input, .booking .date-time input {
+	 border: none;
+	 padding-right: 55px;}
+.booking .city .sec, .booking .date-time .sec {margin-right: 120px;}
+.booking .par {padding-top: 25px; font-weight: bold;}
+.booking .num-travellers .mrg {margin-left: -40px;}
+.booking .num-travellers input {
+    border: none;
+    width: 155px;
+	}
+.booking  .btn { border-radius: none;
+    padding: 10px 40px;
+    margin-top: 30px; 
+    font-size: 22px;}
+.booking  .datepicker input, .booking  .timepicker input {float: left;}   	
+.booking  .datepicker i, .booking  .timepicker i {
+	z-index: 9;
+	color: #888;
+	float: right;
+	margin-top: -21px;
+	margin-right: 10px;
+}
+ 
+/* ================== end booking ==========================*/
+
+/* ================== start backage ==========================*/
+.backage {position: relative;}
+.backage img {
+	height: 100vh;
+	width: 100% ;
+   
+}
+.backage .carousel-indicators {margin-right: 70%;}
+.backage .carousel-indicators .active {background: #e51649;}
+.backage .carousel-indicators li { height: 6px; width: 50px;}
+
+
+.overlayslider {
+	position: absolute;
+	right: 0;
+	top: 1531px;
+    z-index: 99;
+    width: 50%;
+    height: 100vh;
+    background-color: rgba(247, 237, 237, 0.82);
+}
+.overlayslider .container {margin-left: 20px;}
+.overlayslider h1 {
+    font-weight: bold;
+    font-size: 34px;
+	padding-top: 80px;}
+.overlayslider .specialoffer {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 20px;
+	color: #555;
+}
+.overlayslider .priceper {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 20px;
+	color: #555;
+}
+.overlayslider hr {width: 400px; margin-left: 0;color: #000;}
+.overlayslider span { 
+	line-height: 3.5;
+	font-size: 30px;
+	margin-left: 30px;
+	font-weight: bold;
+	color: #333; }
+.overlayslider .lorem {
+	font-size: 16px;
+	font-weight: bold;
+	color: #999;
+	line-height: 1.25;
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+.overlayslider .btn {
+	border-radius: none;
+	padding: 10px 30px;
+}
+
+/* ================== end backage ==========================*/
+
+/* ================== stat lastest ==========================*/
+.lastest { text-align: center; }
+.lastest h1 {
+    font-weight: bold;
+    padding-bottom: 20px;
+	padding-top: 70px;
+    font-size: 45px;
+    color: #222;}
+.lastest {
+    color: #999;
+	font-size: 20px;
+	padding-bottom: 40px;
+}
+/* ================== end lastest ==========================*/
+/* ================== start cities ==========================*/
+.cities img{
+    position: relative;
+    width: 100%;
+    height: 280px;
+}
+.cities .row .col-md { padding: 0;}
+
+.cities .row .overlay {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+} 
+.cities .overlay {
+	color: #fff;
+	padding-left: 30px;
+	padding-top: 185px;
+}
+.cities .overlay h4 {
+	font-weight: 600;
+}
+.cities .overlay p {}
+.cities .overlay span {margin-left: 50px;}
+/* ================== end cities ==========================*/
+
+/* ================== start testmnial ==========================*/
+.testmonial {
+	background: url('../images/img1.jpg') no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+.testmonial .overlaytest {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(249, 243, 243, 0.85);
+}
+.testmonial h1 {
+    padding-bottom: 40px;
+	padding-top: 70px;
+	font-weight: bold;
+	font-size: 50px;
+	color: #222;
+    }
+.testmonial p {
+	font-size: 22px;
+	color: #888;
+	line-height: 1.25;
+}
+.testmonial img {
+	padding-top: 50px;
+	width : 120px;
+	height: 120px;
+	margin-left: 620px;
+	
+}
+.testmonial h3 {padding-top: 15px;padding-bottom: 5px;}
+.testmonial h5 {}
+.testmonial .carousel-indicators {margin-bottom: -80px;}
+.testmonial .carousel-indicators li {
+	height: 6px;
+	width: 50px;
+}
+.testmonial .carousel-indicators .active {background: #e51649;}
+/* ================== end testmnial ==========================*/
+
+/* ================== start footerup ==========================*/
+.footerup {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+/* ================== end footerup ==========================*/
+
+/* ================== start footerdown ==========================*/
+.footerdown {
+    padding-top: 70px;
+    padding-bottom: 50px;
+	background: #ddd;}
+.footerdown .prnt {
+	text-transform: uppercase;
+	
+}
+.footerdown  p {
+	font-size: 16px;
+	color: #555;
+	padding-right: 150px;
+}
+.footerdown  .follow{
+	padding-left: 330px;
+	padding-right: 10px;
+}
+.footerdown i {font-size: 22px; color: #888}
+.footerdown ul {list-style: none; ; padding-left: 0;}
+.footerdown ul li {
+	float: left;
+    padding-right: 20px;
+
+}
+/* ================== end footerdown ==========================*/
